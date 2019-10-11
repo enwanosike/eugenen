@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<!--this code is for practice-->
+<!--the main thing to notice in the codes is in the <> add the code after the main code e.g<h1 style="color:red; or add the id then in css put the atrributes e.g <h1 id="first"> <div class="m1">-->
+<head>
+<link rel="stylesheet" href="style3.css">
+<title> div practise</title>
+<meta charset="UTF-8">
+<style>
+.first{width:15%; 
+background-color:tomato;
+margin:20px;
+ padding:20px;}
+ .city{text-align:center;}
+ span.note{color:red;}
+ <--!this is the dropdown button-->
+ .dropbtn{background-color:#4caf50; color:white;
+	 padding:16px; font-size:16px;
+		border:none;}
+<!--the container<div> needed to position the dropdown content-->
+.dropbtn{position:relative;
+display:inline-block;}
+<!--list hidden by default-->
+.dropdown-content{display:none;
+position:absolute;
+background-color:#f1f1f1;
+min-width:160px;
+box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index:1}
+<!--change color of dropdown links on hover-->
+.dropdown-content a:hover{background-color:#ddd;}
+<!--show the dropdown menu on hover-->
+.dropdown:hover .dropdown-content{display:block;}
+<!--change the background color of the dropdown button when the dropdown content is shown-->
+.dropdown:hover .dropbtn{baackground-color:#3e8e41;}
+.dropdown-content{color:black; padding:12 16px; text-decoration:none; display:block;}
+</style>
+</head>
+
+<body>
+<p>hover menu</p>
+
+<div class="dropdown">
+<button 
+class="dropbtn">Dropdown</button>
+<div class="dropdown-conten">
+<a href="#">link 1</a>
+<a href="#">Link 2</a>
+<a href="#">link 3</a>
+</div>
+</div>
+
+<div class="first">
+<h1>Div Practise 1</h1>
+<p>this is <span style="color:red">practice</span>paragraph</p></div>
+
+<div class="first">
+<h2>Div Practise 2</h2>
+<p>this is second practise paragrapgh</p></div>
+
+<h3>My<span class="note city"> Important </span>Header using span.note</h3>
+<h4 class="city">Using 2 names in one class</h4>
+<p>this is <span class="note">important </span>text</p>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
